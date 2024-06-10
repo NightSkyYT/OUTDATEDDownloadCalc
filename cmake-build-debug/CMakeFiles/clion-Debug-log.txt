@@ -1,0 +1,4 @@
+"F:\Applikationen\JetBrains\CLion\CLion 2024.1.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=F:/Applikationen/JetBrains/CLion/CLion 2024.1.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S H:\E\NuetzlicheCProgramme\Clion\DownloadCalcv4 -B H:\E\NuetzlicheCProgramme\Clion\DownloadCalcv4\cmake-build-debug
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: H:/E/NuetzlicheCProgramme/Clion/DownloadCalcv4/cmake-build-debug
