@@ -81,7 +81,7 @@ int main(void) {
     printf("Please enter your Code: ");
     scanf_s("%d", &code);
     if (number == code) {
-        system("color 3f");
+        system("color 5f");
         loading();
         numSafe();
         int speedyn = 0;
