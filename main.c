@@ -18,6 +18,7 @@ int numSafe() {
     fclose(file);
     printf("\nThe Test-ID  was saved!");
     system("cls");
+    return 0;
 }
 
 int loading() {
@@ -43,6 +44,7 @@ int loading() {
     printf("\nLoading..");
     Sleep(500);
     system("cls");
+    return 0;
 
 
 }
@@ -52,6 +54,7 @@ int stop() {
     int stop = 0;
     printf("\n1 + Enter to close... ");
     scanf_s("%d", &stop);
+    return 0;
 
 }
 
@@ -86,7 +89,7 @@ int main(void) {
         numSafe();
         int speedyn = 0;
         printf("\nDo you want to test your Internetspeed?\n1...Yes\n0...No\nInput: ");
-        scanf("%d",&speedyn);
+        scanf_s("%d",&speedyn);
         if(speedyn == 1){
             printf("\nBefore you continue DO NOT CLICK Q TO QUIT THE TEST!");
             Sleep(100);
