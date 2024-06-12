@@ -91,7 +91,7 @@ int main(void) {
         printf("\nDo you want to test your Internetspeed?\n1...Yes\n0...No\nInput: ");
         scanf_s("%d",&speedyn);
         if(speedyn == 1){
-            printf("\n\e[1mBefore you continue DO NOT CLICK Q TO QUIT THE TEST!\e[1m");
+            printf("\nBefore you continue DO NOT CLICK Q TO QUIT THE TEST!");
             Sleep(100);
             system("speedtest");
             system("color 5f");
