@@ -91,10 +91,10 @@ int main(void) {
         printf("\nDo you want to test your Internetspeed?\n1...Yes\n0...No\nInput: ");
         scanf_s("%d",&speedyn);
         if(speedyn == 1){
-            printf("\nBefore you continue DO NOT CLICK Q TO QUIT THE TEST!");
+            printf("\n\e[1mBefore you continue DO NOT CLICK Q TO QUIT THE TEST!\e[1m");
             Sleep(100);
             system("speedtest");
-            system("color 3f");
+            system("color 5f");
             printf("\nNow divide the Download Speed trough 10. This will be needed here!");
         }
 
