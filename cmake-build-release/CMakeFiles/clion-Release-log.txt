@@ -1,10 +1,19 @@
-"F:\Applikationen\JetBrains\CLion\CLion 2024.1.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release "-DCMAKE_MAKE_PROGRAM=F:/Applikationen/JetBrains/CLion/CLion 2024.1.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S H:\E\NuetzlicheCProgramme\Clion\DownloadCalcv4 -B H:\E\NuetzlicheCProgramme\Clion\DownloadCalcv4\cmake-build-release
+"F:\Applikationen\JetBrains\CLion\CLion 2024.1.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - MinGW Makefiles" -S H:\E\NuetzlicheCProgramme\Clion\DownloadCalcv4re -B H:\E\NuetzlicheCProgramme\Clion\DownloadCalcv4re\cmake-build-release
+CMake Deprecation Warning:
+  Support for "Extra Generators" like
+
+    CodeBlocks
+
+  is deprecated and will be removed from a future version of CMake.  IDEs may
+  use the cmake-file-api(7) to view CMake-generated project build trees.
+
+
 -- The C compiler identification is GNU 13.1.0
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
 -- Check for working C compiler: F:/Applikationen/JetBrains/CLion/CLion 2024.1.2/bin/mingw/bin/gcc.exe - skipped
 -- Detecting C compile features
 -- Detecting C compile features - done
--- Configuring done (3.1s)
--- Generating done (0.0s)
--- Build files have been written to: H:/E/NuetzlicheCProgramme/Clion/DownloadCalcv4/cmake-build-release
+-- Configuring done (12.9s)
+-- Generating done (0.3s)
+-- Build files have been written to: H:/E/NuetzlicheCProgramme/Clion/DownloadCalcv4re/cmake-build-release

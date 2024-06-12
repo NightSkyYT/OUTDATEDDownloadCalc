@@ -74,7 +74,7 @@ int code(const char *filename) {
 
 
 int main(void) {
-    system("color 3f");
+    system("color 5f");
     const char *filename = "file.txt";
     int number = code(filename);
     int code = 0;

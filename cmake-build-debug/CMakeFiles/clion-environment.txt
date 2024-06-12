@@ -2,4 +2,4 @@ ToolSet: 11.0 w64 (local)@F:\Applikationen\JetBrains\CLion\CLion 2024.1.2\bin\mi
 Ninja: 1.12.0@F:\Applikationen\JetBrains\CLion\CLion 2024.1.2\bin\ninja\win\x64\ninja.exe
 Options: 
 
-Options:-DCMAKE_MAKE_PROGRAM=F:/Applikationen/JetBrains/CLion/CLion 2024.1.2/bin/ninja/win/x64/ninja.exe
+Options:
