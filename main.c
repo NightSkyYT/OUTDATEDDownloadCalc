@@ -109,7 +109,7 @@ int main(void) {
         scanf_s("%d",&speedyn);
         if(speedyn == 1){
             int repoInstalled = 0;
-            printf("\nHave you already installedd the needed Repository?\n 0...Yes\n 1...No\nInput: ");
+            printf("\nHave you already installed the needed Repository?\n 0...Yes\n 1...No\nInput: ");
             scanf_s("%d",&repoInstalled);
             if(repoInstalled == 1){
                 SpeedTestRepo();
