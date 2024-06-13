@@ -91,6 +91,8 @@ int main(void) {
         printf("\nDo you want to test your Internetspeed?\n1...Yes\n0...No\nInput: ");
         scanf_s("%d",&speedyn);
         if(speedyn == 1){
+            system("cls");
+            system("color 4f");
             printf("\nBefore you continue DO NOT CLICK Q TO QUIT THE TEST!");
             Sleep(100);
             system("speedtest");
@@ -163,6 +165,12 @@ int main(void) {
             now = time(0);
             printf("\n%s\n", ctime(&now));
             stop();
+        }
+        if(MBorGB != 0 || MBorGB != 1){
+            system("cls");
+            printf("\nNot a valid command please try again!\n");
+            main();
+
         }
 
     } else {
