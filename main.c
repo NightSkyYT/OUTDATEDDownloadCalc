@@ -74,6 +74,23 @@ int code(const char *filename) {
     return number;
 }
 
+int SpeedTestRepo (){
+    int GoYN = 0;
+    printf("\nDo you have Golang installed?\n1... Yes\n0...No\nInput: ");
+    scanf_s("%d",&GoYN);
+    if(GoYN == 1){
+        system("go install github.com/ganeshdipdumbare/speedtest@latest");
+        printf("\nRepository successfully installed!");
+
+    }
+    if(GoYN == 0){
+        system("curl -sf https://gobinaries.com/ganeshdipdumbare/speedtest");
+        printf("\nRepository successfully installed!");
+    }
+
+
+}
+
 
 
 int main(void) {
@@ -91,6 +108,13 @@ int main(void) {
         printf("\nDo you want to test your Internetspeed?\n1...Yes\n0...No\nInput: ");
         scanf_s("%d",&speedyn);
         if(speedyn == 1){
+            int repoInstalled = 0;
+            printf("\nHave you already installedd the needed Repository?\n 0...Yes\n 1...No\nInput: ");
+            scanf_s("%d",&repoInstalled);
+            if(repoInstalled == 1){
+                SpeedTestRepo();
+            }
+
             system("cls");
             system("color 4f");
             printf("\nBefore you continue DO NOT CLICK Q TO QUIT THE TEST!");
@@ -165,18 +189,20 @@ int main(void) {
             now = time(0);
             printf("\n%s\n", ctime(&now));
             stop();
-        }
-        if(MBorGB != 0 || MBorGB != 1){
+
+        }else if(MBorGB != 0 || MBorGB != 1){
             system("cls");
             printf("\nNot a valid command please try again!\n");
             main();
 
         }
 
+
     } else {
         printf("\nWrong Code please try again or contact Owner!\n");
         stop();
 
     }
+
 
 }
