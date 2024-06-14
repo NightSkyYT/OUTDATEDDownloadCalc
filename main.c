@@ -9,7 +9,7 @@ int numSafe() {
     FILE *file;
     printf("\nID: ");
     scanf_s("%d", &ID);
-    file = fopen("testnum.json", "w");
+    file = fopen("ID.json", "w");
     if (file == NULL) {
         printf("Error while opening File!\n");
         return 1;
