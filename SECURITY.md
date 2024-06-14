@@ -4,12 +4,12 @@
 
 Always download the Newest version! At the moment the best versions are these:
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 4.3     | :white_check_mark: |
-| 4.2     | ✅                |
-| 4.1     | ⚪                 |
-| < 4.0   | :x:                |
+| Version | Supported |
+| 4.4     |✅         |
+| 4.3     | ⚪        |
+| 4.2     | ⚪        |
+| 4.1     | :x:       |
+| < 4.0   | :x:        |
 
 ## Best versions to use
 Of course the newest Version is always the best but if you wanted to you could try older programs! Every Version with a ✅ is working and I personally would use it!
