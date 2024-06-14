@@ -67,7 +67,7 @@ int code(const char *filename) {
         return -1;
     }
 
-    fscanf(file, "%d", &number);
+    fscanf_s(file, "%d", &number);
 
     fclose(file);
 
@@ -87,13 +87,13 @@ int SpeedTestRepo (){
         system("curl -sf https://gobinaries.com/ganeshdipdumbare/speedtest");
         printf("\nRepository successfully installed!");
     }
-
+return 0;
 
 }
 
 
 
-int main(void) {
+int main() {
     system("color 5f");
     const char *filename = "file.txt";
     int number = code(filename);
@@ -167,8 +167,7 @@ int main(void) {
             now = time(0);
             printf("\n%s\n", ctime(&now));
             stop();
-        }
-        if (MBorGB == 2) {
+        }else if (MBorGB == 2) {
             Sleep(100);
             printf("\nInternet Speed in MB/s: ");
             scanf_s("%f", &NetSpeed);
