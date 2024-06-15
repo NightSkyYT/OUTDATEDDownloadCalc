@@ -2,6 +2,7 @@
 #include <math.h>
 #include <time.h>
 #include <windows.h>
+#include <conio.h>
 
 
 int numSafe() {
@@ -49,13 +50,11 @@ int loading() {
 
 }
 
+
 int stop() {
-
-    int stop = 0;
-    printf("\n1 + Enter to close... ");
-    scanf_s("%d", &stop);
+    printf("\nEnter to close... ");
+    while (_getch() != 13); // 13 ist der ASCII-Wert für die Enter-Taste
     return 0;
-
 }
 
 int code(const char *filename) {
@@ -128,9 +127,9 @@ int main() {
         int MBorGB = 0;
         float NetSpeed = 0;
         float ProgramSize = 0;
-        float timeReSec = 0;
-        float timeReMin = 0;
-        float timeReHour = 0;
+        float timeReSec;
+        float timeReMin;
+        float timeReHour;
 
         Sleep(100);
         printf("\nIs your Program Download in MB or in GB");
@@ -167,6 +166,9 @@ int main() {
             now = time(0);
             printf("\n%s\n", ctime(&now));
             stop();
+
+
+
         }else if (MBorGB == 2) {
             Sleep(100);
             printf("\nInternet Speed in MB/s: ");
@@ -189,6 +191,8 @@ int main() {
             printf("\n%s\n", ctime(&now));
             stop();
 
+
+
         }else if(MBorGB != 0 || MBorGB != 1){
             system("cls");
             printf("\nNot a valid command please try again!\n");
@@ -200,6 +204,9 @@ int main() {
     } else {
         printf("\nWrong Code please try again or contact Owner!\n");
         stop();
+
+
+
 
     }
 
