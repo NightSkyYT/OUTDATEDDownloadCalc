@@ -58,6 +58,7 @@ int oldstop(){
     int oldstop = 0;
     printf("\n1 + Enter to close...");
     scanf_s("%d",&oldstop);
+    return 0;
 }
 
 int code(const char *filename) {
