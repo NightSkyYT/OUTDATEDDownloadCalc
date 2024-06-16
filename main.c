@@ -4,7 +4,6 @@
 #include <windows.h>
 #include <conio.h>
 
-
 int numSafe() {
     int ID;
     FILE *file;
@@ -50,11 +49,15 @@ int loading() {
 
 }
 
-
 int stop() {
     printf("\nEnter to close... ");
-    while (_getch() != 13); // 13 ist der ASCII-Wert für die Enter-Taste
+    while (_getch() != 13);
     return 0;
+}
+int oldstop(){
+    int oldstop = 0;
+    printf("\n1 + Enter to close...");
+    scanf_s("%d",&oldstop);
 }
 
 int code(const char *filename) {
@@ -203,7 +206,9 @@ int main() {
 
     } else {
         printf("\nWrong Code please try again or contact Owner!\n");
-        stop();
+        oldstop();
+        system("cls");
+        main();
 
 
 
