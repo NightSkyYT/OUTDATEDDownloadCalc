@@ -54,6 +54,7 @@ int stop() {
     while (_getch() != 13);
     return 0;
 }
+
 int oldstop(){
     int oldstop = 0;
     printf("\n1 + Enter to close...");
@@ -93,8 +94,6 @@ int SpeedTestRepo (){
 return 0;
 
 }
-
-
 
 int main() {
     system("color 5f");

@@ -8,12 +8,6 @@ CMake Deprecation Warning:
   use the cmake-file-api(7) to view CMake-generated project build trees.
 
 
--- The C compiler identification is GNU 13.1.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: F:/Applikationen/JetBrains/CLion/CLion 2024.1.2/bin/mingw/bin/gcc.exe - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Configuring done (12.9s)
--- Generating done (0.3s)
+-- Configuring done (1.2s)
+-- Generating done (0.4s)
 -- Build files have been written to: H:/E/NuetzlicheCProgramme/Clion/DownloadCalcv4re/cmake-build-release

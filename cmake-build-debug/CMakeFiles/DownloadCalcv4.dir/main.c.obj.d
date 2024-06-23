@@ -274,4 +274,6 @@ CMakeFiles/DownloadCalcv4.dir/main.c.obj: \
  F:/Applikationen/JetBrains/CLion/CLion\ 2024.1.2/bin/mingw/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
  F:/Applikationen/JetBrains/CLion/CLion\ 2024.1.2/bin/mingw/x86_64-w64-mingw32/include/winsvc.h \
  F:/Applikationen/JetBrains/CLion/CLion\ 2024.1.2/bin/mingw/x86_64-w64-mingw32/include/mcx.h \
- F:/Applikationen/JetBrains/CLion/CLion\ 2024.1.2/bin/mingw/x86_64-w64-mingw32/include/imm.h
+ F:/Applikationen/JetBrains/CLion/CLion\ 2024.1.2/bin/mingw/x86_64-w64-mingw32/include/imm.h \
+ F:/Applikationen/JetBrains/CLion/CLion\ 2024.1.2/bin/mingw/x86_64-w64-mingw32/include/conio.h \
+ F:/Applikationen/JetBrains/CLion/CLion\ 2024.1.2/bin/mingw/x86_64-w64-mingw32/include/sec_api/conio_s.h
